@@ -9,13 +9,12 @@ var fullname = $('#name').val();
    
   $('#but').click(function() {
     
-	  
-    //Blank field validation of fullname, mobile no and address. The function will generate an alert message if "fullname" or "mobile no" or "address" field is blank  
+ 
     if(fullname == '')
     {
       alert('Please enter your Full Name');
       $('#name').focus();
-	   //The focus function will move the cursor to "fullname" field
+	   
     }
     else if(DateBirth == '')
     {
