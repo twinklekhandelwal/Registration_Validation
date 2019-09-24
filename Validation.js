@@ -1,13 +1,12 @@
 var fullname = $('#name').val();
-console.log("yugui")
+
   var DateBirth = $('#DOB').val();
   var GraduationDate= $('#Grada').val();
 
   var Graduationdegree= $('#Grade').val();
   var WorkExperience= $('#WorkEx').val();
-
- 
-  //Function will execute when the button "Click to Submit" is clicked.
+  
+   
   $('#but').click(function() {
     
 	  
@@ -21,23 +20,24 @@ console.log("yugui")
     else if(DateBirth == '')
     {
 	  alert('Please enter your Date of Birth')
-	  $('#address').focus();
+	  $('#DOB').focus();
     }
     else if(GraduationDate == '')
     {
 	  alert('Please enter your Graduation Date')
-	  $('#address').focus();
+	  $('#Grada').focus();
     }
     
     else if(Graduationdegree == '')
     {
 	  alert('Please enter your Graduation degree');
-	 $('#address').focus();
+	 $('#Grade').focus();
+	 
     }
     else if(WorkExperience == '')
     {
 	  alert('Please enter your Graduation Date');
-	  $('#address').focus();
+	  $('#WorkEx').focus();
     }
     
     
